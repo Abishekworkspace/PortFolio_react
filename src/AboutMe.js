@@ -6,10 +6,14 @@ export default function AboutMe() {
     <div>
        <section id="about" className="about-section">
         <h2>About Me</h2>
-        <p>
-        Hi, I'm [Your Name], a passionate developer specializing in [Your Specialization].
-        I love building web applications that solve real-world problems and improve user experiences.
+          <strong>
+          <p>
+
+         
+        Hi, I'm Abishek, a passionate web developer specializing in creating web applications.
+        I love building web applications that solve real-world problems and improve user experiences which also makes me learning new features and functionalities on a day to day basis.
         </p>
+        </strong>
        </section>
     </div>
   )

@@ -7,21 +7,21 @@ import './Header.css';
 function Experience() {
   const experiences = [
     {
-      company: 'Company One',
-      role: 'Software Engineer',
-      duration: 'Jan 2022 - Present',
+      company: 'Infosys',
+      role: 'Systems Engineer',
+      duration: 'Feb 2022 - June 2023',
       responsibilities: [
-        'Developed web applications using React and Node.js.',
-        'Collaborated with cross-functional teams to deliver high-quality software.',
-        'Implemented best practices in coding and UI design.',
+        "Designed and implemented Robotic Process Automation (RPA) solutions using Assist Edge tool to automate repetitive tasks, resulting in [quantifiable benefits].",
+        'Led an end-to-end implementation and maintained use case involving analyzing requirements, design documents, developing the solution, testing and deploying it, and providing post implementation support to ensure the solution was running smoothly.',
+        'Assisted in project planning worked in end-end process migration support from RDC to Thycotic migration connection a provider of privileged access management (PAM) solutions that help secure their critical systems and data by managing and controlling access to privileged accounts',
       ],
     },
     {
-      company: 'Company Two',
-      role: 'Frontend Developer',
-      duration: 'Jan 2020 - Dec 2021',
+      company: 'Redspeck solutions Pvt Limited',
+      role: 'FullStack Developer',
+      duration: 'April 2024 - Present',
       responsibilities: [
-        'Built responsive user interfaces using HTML, CSS, and JavaScript.',
+        'Building responsive user interfaces using React Next JS',
         'Worked closely with designers to create intuitive and user-friendly experiences.',
         'Optimized web applications for performance and accessibility.',
       ],

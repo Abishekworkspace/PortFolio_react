@@ -7,23 +7,24 @@ import './Header.css';
 function Education() {
   const education = [
     {
-      institution: 'University One',
-      degree: 'Bachelor of Science in Computer Science',
-      duration: '2018 - 2022',
+      institution: ' Kongu Matric Higher sec school',
+      degree: 'HSLC',
+      duration: '2015 - 2017',
       achievements: [
-        'Graduated with honors',
-        'Member of the Computer Science Club',
+        'scored 90.45 % in the final Exams ',
+        'Participated and won several Speech debates and poetry competitons. ',
       ],
     },
     {
-      institution: 'University Two',
-      degree: 'Diploma in Web Development',
-      duration: '2016 - 2018',
+      institution: 'Sri Krishna College of Technology',
+      degree: 'Bachelor of Engineering in Mechanical Engineering',
+      duration: '2017 - 2021',
       achievements: [
-        'Developed an award-winning web application project',
-        'Participated in hackathons and coding competitions',
-      ],
-    },
+        'Part of debate Club',
+        'Member of Design components club',
+      ]
+    }
+  
     // Add more education entries as needed
   ];
 
@@ -35,7 +36,7 @@ function Education() {
           <div key={index} className="education-item">
             <h3>{edu.institution}</h3>
             <h4>{edu.degree}</h4>
-            <p>{edu.duration}</p>
+            <strong><p>{edu.duration}</p></strong>
             <ul>
               {edu.achievements.map((achievement, i) => (
                 <li key={i}>{achievement}</li>

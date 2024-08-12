@@ -1,4 +1,8 @@
 /* src/components/Header.css */
+body{
+  background-color:black;
+}
+
 button{
   cursor: pointer;
 }

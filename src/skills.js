@@ -3,12 +3,11 @@ import './Header.css';
 
 function Skills(){
     const skills=[
-        
+        'HTML',
+        'CSS',
             'JavaScript',
             'React',
             'Next.js',
-            'CSS',
-            'HTML',
             'C#',
             'SQL Server'
     ];
