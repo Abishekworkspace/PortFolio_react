@@ -1,0 +1,314 @@
+/* src/components/Header.css */
+button{
+  cursor: pointer;
+}
+
+.header {
+  background-color: #333;
+  color:black;
+  padding: 15px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-list li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar-list li a:hover {
+  color: #ff6347; /* Tomato color for hover */
+}
+
+button{
+  background-color: aquamarine;
+  box-shadow: #333;
+}
+/* src/components/About.css */
+
+.about-section {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #f4f4f9;
+}
+
+.about-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 1.2em;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+  color: #666;
+}
+
+/* src/components/Skills.css */
+
+.skills-section {
+  padding: 50px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.skills-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.skills-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.skill-item {
+  font-size: 1.1em;
+  color: #333;
+  padding: 10px 20px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.skill-item:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+
+/* src/components/Projects.css */
+
+.projects-section {
+  padding: 50px 20px;
+  background-color: #f4f4f9;
+  text-align: center;
+}
+
+.projects-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.project-item {
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.project-item:hover {
+  transform: translateY(-10px);
+}
+
+.project-item h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.project-item p {
+  font-size: 1em;
+  margin-bottom: 15px;
+  color: #666;
+}
+
+.project-item a {
+  color: #ff6347;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.project-item a:hover {
+  color: #333;
+}
+
+/* src/components/Experience.css */
+
+.experience-section {
+  padding: 50px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.experience-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.experience-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.experience-item:hover {
+  color: #333;
+  transition: color 0.3s;
+  background-color: #fffafa; /* Optional background color change on hover */
+  border-radius: 8px; /* Optional border radius for a smoother look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+.experience-item {
+  width: 300px;
+  padding: 20px;
+  background-color: #f4f4f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+.experience-item h3 {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.experience-item h4 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.experience-item p {
+  font-size: 1em;
+  margin-bottom: 15px;
+  color: #666;
+}
+
+.experience-item ul {
+  list-style: disc;
+  padding-left: 20px;
+  text-align: left;
+  color: #555;
+}
+
+.experience-item li {
+  margin-bottom: 10px;
+  font-size: 0.95em;
+}
+
+/* src/components/Education.css */
+
+.education-section {
+  padding: 50px 20px;
+  background-color: #f4f4f9;
+  text-align: center;
+}
+
+.education-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.education-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.education-item {
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.education-item h3 {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.education-item h4 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.education-item p {
+  font-size: 1em;
+  margin-bottom: 15px;
+  color: #666;
+}
+
+.education-item ul {
+  list-style: disc;
+  padding-left: 20px;
+  text-align: left;
+  color: #555;
+}
+
+.education-item li {
+  margin-bottom: 10px;
+  font-size: 0.95em;
+}
+
+/* src/components/Contact.css */
+
+.contact-section {
+  padding: 50px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.contact-section p {
+  font-size: 1.2em;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+  color: #666;
+}
+
+.contact-list {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.contact-list li {
+  margin-bottom: 15px;
+}
+
+.contact-list li a {
+  color: #ff6347;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.contact-list li a:hover {
+  color: #333;
+}
